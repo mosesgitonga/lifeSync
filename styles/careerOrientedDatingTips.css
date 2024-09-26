@@ -1,0 +1,125 @@
+/* styles/index.css */
+
+body {
+    font-family:  sans-serif; /* Use Orbitron for a modern sci-fi look */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d; /* Dark background for contrast */
+    color: #ffffff; /* White text for readability */
+}
+
+.container-header {
+    display: flex;
+}
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.nav-list {
+    display: flex;;
+}
+
+.main-header {
+    background: linear-gradient(to right, #35424a, #2c3e50); /* Gradient background */
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+}
+
+.main-header .logo h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Increased font size for emphasis */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px; /* Spacing between navigation items */
+}
+
+.nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-list a:hover {
+    color: #e67e22; /* Change color on hover */
+}
+
+.blog-post {
+    background: #1c1c1c; /* Dark background for the blog post */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for elevation effect */
+}
+
+.blog-post h2 {
+    color: #e67e22; /* Accent color for headings */
+    font-size: 2rem; /* Increased font size for the main heading */
+}
+
+.blog-post h3 {
+    color: #f39c12; /* Lighter accent color for subheadings */
+}
+
+.blog-post p {
+    color: #dddddd; /* Slightly lighter text color for paragraphs */
+    margin: 10px 0; /* Spacing between paragraphs */
+}
+
+.cta {
+    background: #e67e22; /* Highlight color for call-to-action */
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 20px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.cta:hover {
+    background: #d35400; /* Darker shade on hover */
+}
+
+.main-footer {
+    background: linear-gradient(to right, #35424a, #2c3e50); /* Match header background */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    display: inline;
+    margin: 0 10px; /* Spacing between footer items */
+}
+
+.footer-list a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.footer-list a:hover {
+    color: #e67e22; /* Change color on hover */
+}
